@@ -1,0 +1,50 @@
+.plans{
+    padding: 5.6vw;
+
+    h2{
+        text-align: center;
+    }
+    
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: 40px;
+        margin-top: 50px;
+
+        @media (max-width:768px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .button{
+            margin-top: 24px;
+        }
+
+        &__item{
+            list-style: none;
+            text-align: center;
+            padding: 60px 44px 44px;
+            max-width: 300px;
+            width: 100%;
+
+            &:hover{
+                border: 1px solid silver;
+            }
+
+            img{
+                height: 200px;
+            }
+        }
+
+        strong{
+            display: block;
+            margin-top: 24px;
+        }
+    }
+
+    p{
+        text-align: center;
+    }
+}

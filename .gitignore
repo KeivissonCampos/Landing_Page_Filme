@@ -1,0 +1,11 @@
+node_modules
+
+# Ignorar a pasta css dentro de public
+/public/css/
+
+# Ignorar apenas os arquivos index.html e main.js na pasta public
+/public/index.html
+/public/main.js
+
+# Não ignore o restante da pasta public
+!public/

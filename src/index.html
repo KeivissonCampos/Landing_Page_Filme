@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Filme</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="header header--is-hidden">
+        <div class="header__container">
+            <h1 class="hidden">   
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item hidden">
+                    <a href="#" class="button button--secondary">Assistir agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="title">
+                A Milhões de Quilômetros
+            </h1>
+            <h3 class="title--small">
+                Baseado em uma história real
+            </h3>
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <button class="button">Comprar Filme</button>
+                    <span class="text">R$ 9,99*</span>
+                </li>
+            </ul>
+            <p class="text--small">
+                *O preço pode variar caso a assinatura seja feita através de outras plataformas
+            </p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="cenas" class="shows__tabs__button shows__tabs__button--is-active">
+                Cenas
+            </button>
+            <button data-tab-button="elenco" class="shows__tabs__button">
+                Elenco
+            </button>
+            <button data-tab-button="jose" class="shows__tabs__button">
+                Jose Hernandez
+            </button>
+        </nav>
+        <ul data-tab-id="cenas" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="images/cenas/IMG1.jpeg" alt="Poster do filme a milhões de quilometros">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/cenas/IMG2.jpeg" alt="Poster do filme a milhões de quilometros">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/cenas/IMG3.jpeg" alt="Poster do filme a milhões de quilometros">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/cenas/IMG4.jpeg" alt="Poster do filme a milhões de quilometros">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/cenas/IMG5.jpeg" alt="Poster do filme a milhões de quilometros">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/cenas/IMG6.jpeg" alt="Poster do filme a milhões de quilometros">                
+            </li>
+        </ul>
+        
+        <ul data-tab-id="elenco" class="shows__list">
+            <li class="shows__list__item">
+                <img src="images/elenco/IMG1.jpeg" alt="Poster do filme a milhões de quilometros">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/cenas/IMG1.jpeg" alt="Poster do filme a milhões de quilometros">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/elenco/IMG3.jpeg" alt="Poster do filme a milhões de quilometros">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/elenco/IMG4.jpeg" alt="Poster do filme a milhões de quilometros">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/elenco/IMG5.jpeg" alt="Poster do filme a milhões de quilometros">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/elenco/IMG6.jpeg" alt="Poster do filme a milhões de quilometros">                
+            </li>
+        </ul>
+
+        <ul data-tab-id="jose" class="shows__list">
+            <li class="shows__list__item">
+                <img src="images/Jose/IMG1.jpeg" alt="Poster foto Jose Hernandez">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/Jose/IMG2.jpeg" alt="Poster foto Jose Hernandez">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/Jose/IMG3.jpeg" alt="Poster foto Jose Hernandez">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/Jose/IMG4.jpeg" alt="Poster foto Jose Hernandez">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/Jose/IMG5.jpeg" alt="Poster foto Jose Hernandez">
+            </li>
+            <li class="shows__list__item">
+                <img src="images/Jose/IMG6.jpeg" alt="Poster foto Jose Hernandez">
+            </li>
+        </ul>
+    </section>
+    <section class="plans">
+        <h2 class="title--big">Ganhe um cupom de desconto</h2>
+        <h2 class="text--big">Escolha a cena correta para ganhar o cupom</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <img src="images/cupom/IMG2.jpeg" alt="A milhões de quilometros">
+                <strong class="title--small">Cena 1</strong>
+                <p class="text--big">
+                    Essa cena contém um momento chave da trama do filme.
+                </p>
+                <button class="button button_game" data-correct="false">Escolher essa cena</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="images/cupom/IMG1.jpg" alt="A milhões de quilometros">
+                <strong class="title--small">Cena 2</strong>
+                <p class="text--big">
+                    Essa cena mostra um momento emocionante da jornada espacial.
+                </p>
+                <button class="button button_game" data-correct="true">Escolher essa cena</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="images/cupom/IMG3.jpeg" alt="A milhões de quilometros">
+                <strong class="title--small">Cena 3</strong>
+                <p class="text--big">
+                    Essa cena contém um momento que ele viaja para a LUA.
+                </p>
+                <button class="button button_game" data-correct="false">Escolher essa cena</button>
+            </li>
+        </ul>
+        <p class="text--small">
+            *O cupon só é valido para assinatura seja feita através do site.
+        </p>
+    </section>
+    <section class="image-text-section">
+        <iframe src="https://www.youtube.com/embed/lf_5N6GoJqo" 
+        title="Trailer de A Milhões de Quilômetros" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+        <div class="image-text-section__text_container">
+            <h2 class="title">Assista o trailer</h2>
+            <p class="text">
+                "A Milhões de Quilômetros" é uma história de perseverança, determinação e sonhos impossíveis. Assista ao trailer e acompanhe cada passo emocionante na trajetória de José, desde suas raízes humildes até seu extraordinário feito de se tornar astronauta. Com visual deslumbrante e uma narrativa tocante, o filme celebra o poder dos sonhos e a força do espírito humano.
+            </p> 
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="images/fundo_m_de_quilometros_celular.png">
+            <img src="images/fundo_milhares_de_quilometros.png" alt="Rei Leão">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="title">O que aprenderá com o Filme</h2>
+            <p class="text">
+                A vida é uma jornada repleta de desafios e oportunidades, onde cada passo que damos nos molda para quem realmente somos. Em momentos de dificuldade, é fácil perder a esperança e deixar que o medo nos paralise. No entanto, é exatamente nesses momentos que devemos lembrar que a perseverança é a chave para a realização dos nossos sonhos.
+            </p> 
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title"> Assista nos seus disponível favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="images/dispositivos/computador.png" alt="computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li class="footer__item">Chrome OS</li>
+                    <li>MaCos</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="images/dispositivos/tv.png" alt="TV">
+                <h4 class="title--small">TV</h4>
+                <ul class="text">
+                    <li>Amazon Fire Tv</li>
+                    <li>Android TV</li>
+                    <li>Apple TV</li>
+                    <li>Chromecast</li>
+                    <li>TVs LG</li>
+                    <li>Roku</li>
+                    <li>Samsung</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="images/dispositivos/celular.png" alt="Celulares e tablets">
+                <h4 class="title--small">Celulares e tablets</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulares e Tablets Android</li>
+                    <li>iPhone e iPad</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Qual é a história por trás de A Milhões de Quilômetros?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    O filme narra a vida de José Hernández, um ex-trabalhador rural que se tornou astronauta. Sua jornada, marcada por desafios pessoais e profissionais, inspira milhões a nunca desistirem de seus sonhos, independentemente das dificuldades.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Quem é o elenco principal do filme?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    O papel principal é interpretado por Michael Peña, com uma atuação emocionante e cativante. O elenco de apoio inclui Sarayu Blue, Rosa Salazar, e outros grandes talentos que trazem vida a essa história de superação
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Onde o filme foi gravado?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    As filmagens ocorreram em diversas locações, desde fazendas rurais até os principais centros espaciais dos Estados Unidos, capturando a essência da jornada do protagonista de uma maneira autêntica e imersiva.
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="images/icones/globe.svg" alt="Globo do mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Politica de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Produção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Anúcios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">dispositivos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Sobre o Site</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                © 2024 Todos os direitos reservados.
+            </p>
+            <p class="text--small">
+                A programação do conteúdo é necessário ter mais de 18 anos de idade. Conteúdo sujeito a disponibilidade.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "clone_disneyplus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.79.3"
+  },
+  "dependencies": {
+    "gulp-copy": "^5.0.0"
+  }
+}
